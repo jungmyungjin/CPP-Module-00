@@ -1,7 +1,7 @@
 .idea
 .vscode
 cmake-build-debug
-CMakeList.txt
+CMakeLists.txt
 
 cmake-build-debug/*
 .idea/*
