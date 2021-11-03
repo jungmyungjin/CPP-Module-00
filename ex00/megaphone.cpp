@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   megaphone.cpp                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mjung <mjung@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/11/03 21:06:26 by mjung             #+#    #+#             */
+/*   Updated: 2021/11/03 21:06:29 by mjung            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -19,7 +31,6 @@ int main(int argc, char **argv)
 		for (int idx = 1; idx < argc; idx++)
 		{
 			std::string str = argv[idx];
-
 			std::transform(str.begin(), str.end(), str.begin(), ::toupper);
 			std::cout << str;
 		}

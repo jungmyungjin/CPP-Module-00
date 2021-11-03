@@ -3,7 +3,7 @@ SRCS = ./megaphone.cpp
 CC = clang++
 NAME = megaphone
 
-CFLANG = -Wall -Wextra -Werror
+CFLANG = -Wall -Wextra -Werror -std=c++98
 OBJS = $(SRCS:.cpp=.o)
 
 
